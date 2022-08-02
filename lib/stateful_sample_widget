@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+class StatefulSamplewidget extends StatefulWidget {
+  const StatefulSamplewidget({Key? key}) : super(key: key);
+
+  @override
+  State<StatefulSamplewidget> createState() => _StatefulSamplewidgetState();
+}
+
+class _StatefulSamplewidgetState extends State<StatefulSamplewidget> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
